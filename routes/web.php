@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('getAllProjects', 'ProjectController@getAllProjects');
+
+Route::get('insertProject', 'ProjectController@insertProject');
+
+Route::get('deleteProjects', 'ProjectController@deleteRegisters');
